@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import FormComponent from './components/form/Form'
 import Contacts from './components/contacts/Contacts'
 import {addInfo, editHandler} from './utils/functions'
-import { ToastContainer } from 'react-toastify'
+import { ToastContainer } from 'react-toastify';
 
 
 const initialState = {username: "", phoneNumber: "", gender: "No Info"}
